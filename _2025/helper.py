@@ -50,7 +50,7 @@ def get_formula_and_rect(tex, tex_kw, corner_radius=0.05):
 
     rect = SurroundingRectangle(formula)
     rect.set_stroke(WHITE, 1.5)
-    rect.set_fill("#141414", 1,0)
+    rect.set_fill("#191919", 1,0)
     rect.round_corners(corner_radius)
     return VGroup(rect, formula)
 
